@@ -1,0 +1,26 @@
+# Sample crontab file with different spacings and crontab expressions
+
+#MAILTO="test@gmail.com"
+
+# minute, hour, dom, month, dow
+
+# minutely
+*/1 *   *   * *  /app/site/cron/job1.py
+*/1 15-23,0-5    *    * *  /app/site/cron/job2.py
+
+# hourly
+0   */2 *     * *  /app/site/cron/job6.py
+0   4 * * *  /app/site/cron/job7.py
+ 
+# daily
+10  0   *     * *  /app/site/cron/job8.py
+45  10  */1   * *  /app/site/cron/job11.py
+15 2 *     * 1-6   /app/site/cron/job17.py
+50 2 1-6,8-31 * *    /app/site/cron/job18.py
+
+ 
+# weekly/monthly
+0   0   11,25 * *  /app/site/cron/job14.py
+48 0 *        * 2    /app/site/cron/job20.py
+50 1 1-6,8-31 * 7    /app/site/cron/job21.py
+0  0 2        * *    /app/site/cron/job22.py

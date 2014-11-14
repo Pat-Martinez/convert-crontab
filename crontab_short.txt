@@ -1,0 +1,7 @@
+# a short and simple crontab file that doesn't have any expressions with 
+# ranges such as 15-6 or commas such as 11,25
+
+*/2 15    *   * * cron/job1.py
+0 0 1 * * app/site/cron/job2.py
+2 15 * * * app/site/cron/job3.py
+
