@@ -17,11 +17,11 @@ crontab file with 4 lines: one comment, 1 blank line, and 2 cron jobs.
   line 4-  0 0 1 *  * app/site/cron/job2.py   
 
 RESULT 1 Next Run Time (assuming current time is 2014-11-14 8:00):  
-  JOB NAME: job1    NEXT RUN TIME: 2014-11-14 15:02  
-  JOB NAME: job2    NEXT RUN TIME: 2014-12-01 00:00
+&nbsp;&nbsp; JOB NAME: job1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEXT RUN TIME: 2014-11-14 15:02  
+&nbsp;&nbsp; JOB NAME: job2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEXT RUN TIME: 2014-12-01 00:00
 
 RESULT 2 Human Readable (assuming current time is 2014-11-14 8:00):  
-  JOB NAME: job1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Runs at 02:15 on every day.  
-  JOB NAME: job2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Runs at 00:00 on the 1st day of every month.   
+&nbsp;&nbsp; JOB NAME: job1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Runs at 02:15 on every day.  
+&nbsp;&nbsp; JOB NAME: job2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Runs at 00:00 on the 1st day of every month.   
 
                      
